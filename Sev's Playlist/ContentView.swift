@@ -67,11 +67,12 @@ struct MediaScroll: View {
                             .padding(.leading)
                             .opacity(0.5)
                         HStack(spacing: 0) {
-                            Text("1")
+                            Text("040622")
                                 .frame(width: 22, alignment: .leading)
                                 .clipped()
                                 .foregroundColor(.secondary)
-                            Text("You’re invited to")
+                            Text("Thank you for coming")
+                            //Text("Thank you")
                             Spacer()
                             Image(systemName: "ellipsis")
                         }
@@ -132,13 +133,12 @@ struct MediaScroll: View {
             VStack(spacing: 0) {
                 Divider()
                 HStack(spacing: 10) {
-                    ForEach(0..<3) { _ in  // Replace with your data model here
                         VStack(spacing: 4) {
                             Image(systemName: "play.circle.fill")
                                 .imageScale(.large)
-                                .frame(height: 26)
+                                .frame(height: 30)
                                 .clipped()
-                            Text("Listen Now")
+                            Text("Baby Sev")
                                 .font(.caption2)
                         }
                         .frame(maxWidth: .infinity)
@@ -150,7 +150,7 @@ struct MediaScroll: View {
                 }
                 .padding(.horizontal, 15)
                 .padding(.top, 5)
-            }
+            
             .frame(height: 84, alignment: .top)
             .clipped()
             .background {
